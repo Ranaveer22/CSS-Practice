@@ -7,9 +7,14 @@ h1{
 }
 .Body_Style_1{
     background-color:teal;
+    font-size: large;
     padding-left: 20px;
     padding-right: 10px;
 }
 a{
     color: rgb(15, 15, 192);
+}
+img{
+    height: 280px;
+    width: 400px;
 }
