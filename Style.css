@@ -10,6 +10,10 @@
     font-size: xx-large;
     color: rgb(118, 74, 17);
 }
+.heading_4{
+    font-size: xx-large;
+    color: rgb(234, 230, 26);
+}
 h1{
     text-align: center;
 }
@@ -21,6 +25,12 @@ h1{
 }
 .Body_Style_2{
     background-color:rgb(38, 178, 49);
+    font-size: large;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+.Body_Style_3{
+    background-color:rgb(195, 36, 89);
     font-size: large;
     padding-left: 20px;
     padding-right: 10px;

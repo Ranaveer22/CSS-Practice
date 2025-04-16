@@ -8,12 +8,21 @@
     <link href="Style.css" rel="Stylesheet">
 
     <link rel="icon" type="image/x-icon" href="favicon_orangeTerminal.ico">
+
+    <style>
+        table, th, td{
+            border: 2px solid black;
+        }
+        th, td{
+            padding: 10px;
+        }
+    </style>
 </head>
 <body class="Body_Style_2">
     <header class="heading_1">
         <h1>Tables</h1>
     </header>
-    <table style="width: 100% ;text-align: center;">
+    <table style="width:auto ;text-align: center;">
         <tr>
             <th>Company</th>
             <th>Country</th>
@@ -28,6 +37,44 @@
             <td>PQR Ltd.</td>
             <td>Sweden</td>
             <td>9853124651</td>
+        </tr>
+    </table>
+
+    <br><br>
+
+    <table>
+        <tr>
+            <th colspan="2">Name</th>
+            <th>Age</th>
+            <th>Country</th>
+        </tr>
+        <tr>
+            <td>Raju</td>
+            <td>Singh</td>
+            <td>25</td>
+            <td>India</td>
+        </tr>
+        <tr>
+            <td>Pete Mitchel</td>
+            <td>Maverick</td>
+            <td>27</td>
+            <td>America</td>
+        </tr>
+    </table>
+
+    <br><br>
+
+    <table>
+        <tr>
+            <th>Name</th>
+            <td>Jill</td>
+        </tr>
+        <tr>
+            <th rowspan="2">Phone</th>
+            <td>7746-388</td>
+        </tr>
+        <tr>
+            <td>8302-661</td>
         </tr>
     </table>
 </body>
