@@ -43,7 +43,8 @@ a{
     width: 400px;
     border-radius: 9%;;
 }
-.container{
-display: flex;
-align-items: flex-start;
+.div-container {
+    display: flex;
+    justify-content: space-between; /* Places table on left and image on right */
+    align-items: center;
 }

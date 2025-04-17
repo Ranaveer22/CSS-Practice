@@ -10,7 +10,7 @@
 
     <link href="Style.css" rel="Stylesheet">
 
-    <link rel="icon" type="image/x-icon" href="favicon_ninjaLogo.ico">
+    <link rel="icon" type="image/x-icon" href="Favicons/favicon_ninjaLogo.ico">
 
     <!-- For Favicons
     The attribute type="image/x-icon" in your <link> tag specifies the MIME type of the linked favicon. The image/x-icon type is the standard format for favicons, ensuring that browsers correctly recognize and display the site's icon.
@@ -19,19 +19,28 @@
     PNG	    .png       	  image/png
     GIF	    .gif	      image/gif
     JPEG	.jpg,.jpeg	  image/jpeg -->
-
+    <style>
+        fieldset{
+            background-color: rgba(209, 91, 0, 0.592);
+        }
+    </style>
 </head>
 <body class="Body_Style_2">
     <header class="heading_3"><h1>Forms</h1></header>
     
     <form action="/Practice_2.html">
+        <fieldset>
+        <legend><b>Personal Details:</b></legend>
         <label for="fname">First Name : </label>
         <input type="text" name="fname" id="fname" style="opacity: 70%; background-color: rgb(167, 132, 132);">
         <br><br>
         <label for="lname">Last Name : </label>
         <input type="text" name="lname" id="lname" style="opacity: 70%; background-color: rgb(167, 132, 132);">
-        <br><br>
-        <h3>Choose Your Favourite Programming Language :</h3>
+        </fieldset>
+        <br> 
+
+        <fieldset>
+        <legend><b>Choose Your Favourite Programming Language :</b></legend>
         <input type="radio" name="favourite" id="HTML & CSS";>
         <label for="HTML & CSS">HTML & CSS</label>
         <br>
@@ -40,8 +49,11 @@
         <br>
         <input type="radio" name="favourite" id="C++">
         <label for="C++">C++</label>
-        <br><br>
-        <p><h3>Anime You Have Completed from the Following :</h3></p>
+        </fieldset>
+        <br>
+
+        <fieldset>
+        <legend><b>Anime You Have Completed from the Following :</b></legend>
         <input type="checkbox" name="animeCompleted" id="Demon Slayer">
         <label>Demon Slayer</label>
         <br>
@@ -50,7 +62,9 @@
         <br>
         <input type="checkbox" name="animeCompleted" id="Fire Force">
         <label>Fire Force</label>
-        <br><br>
+        </fieldset><br>
+        
+        <fieldset>
         <h4><label>Select a Car You Wish to Purchase : </label>
         <select style="background-color:rgb(132, 167, 155); text-align: center;">
             <option value="Default">Select an Option</option>
@@ -59,9 +73,14 @@
             <option value="Pagani">Pagani</option>
             <option value="Aston Martin">Aston Martin</option>
             <option value="Koenigsegg">Koenigsegg</option>
-        </select>
+        </select><br>
+        </fieldset><br>
+
+        <textarea name="suggestions" rows="3" cols="50" onclick="this.value=''">Suggest any improvements Here</textarea>
+<br><br>
         </h4>
-        <input type="submit" style="height: fit-content; width: fit-content ;font-size: 15px ;background-color: rgb(102, 104, 109);" value=" Submit ">
+        <input type="reset" value="Reset Form" style="height: fit-content; width: fit-content ;color: aliceblue; font-family:'Times New Roman', Times, serif ;font-size: 15px ;background-color: rgb(0, 0, 0);">
+        <input type="submit" value=" Submit" style="height: fit-content; width: fit-content ;color: aliceblue; font-family:'Times New Roman', Times, serif ;font-size: 15px ;background-color: rgb(0, 0, 0);">
     </form>
 </body>
 </html>
