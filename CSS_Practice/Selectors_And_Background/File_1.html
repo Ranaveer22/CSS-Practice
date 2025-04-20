@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<!-- This Is Internal CSS -->
+<style>
+    /*Universal Selector  | Applied to All Elements*/
+    *{
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Times, serif;
+    }
+    /* Selector Using 'Class'  |  Can be Used Multiple Times */
+    .Colour_Red{
+        color: brown;
+    }
+    /* Selector Using 'ID'  | 'Should' be Used Once */
+    #Colour_Blue{
+        color: rgb(19, 86, 255);
+    }
+    /* Grouped Selector */
+    h2,p{
+        font-size: xx-large;
+        /* background-image: url( URL here ); */
+    }
+    body{
+        /* Writing Background in Shorthand */
+        background:rgb(119, 119, 119) url("Background_1.jpg") no-repeat fixed center/cover;
+        }
+</style>
+
+</head>
+<body>
+    <h1 id="Colour_Blue">First Heading</h1>
+
+    <!-- This is Inline CSS -->
+    <h2 style="color: chartreuse;">First Heading</h2>
+
+    <p class="Colour_Red">Lorem ipsum dolor sit amet.</p>
+
+</body>
+</html>
